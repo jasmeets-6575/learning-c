@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>  
+#include <string.h>  
 
 typedef struct {
     char name[50];
@@ -10,6 +11,7 @@ typedef struct {
 
 int main() {
     Student student1 = {"Spongebob", 30, 2.5, true};
+    strcpy(student1.name, " sandy");
 
     printf("Name: %s\n", student1.name);
     printf("Age: %d\n", student1.age);
