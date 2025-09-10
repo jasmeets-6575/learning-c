@@ -4,7 +4,6 @@
 int main() {
 
     // malloc() = A fucntion in C that dynamically allocates a specified number of bytes in memory
-
     int number = 0;
 
     printf(" Enter the number of grades: ");
