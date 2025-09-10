@@ -44,8 +44,6 @@ int main() {
         }
     }
 
-
-
     free(prices); // returning 'rented' space back to the operating sysytem
     prices = NULL; // avoids dangling pointers
 
