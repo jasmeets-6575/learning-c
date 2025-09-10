@@ -39,7 +39,7 @@ int main() {
             printf("Enter prices #%d", i + 1);
             scanf(" %f", &prices[i]);
         }
-        for (int i = 0; i < number; i++){
+        for (int i = 0; i < newNumber; i++){
             printf("%f ", &prices[i]);
         }
     }
